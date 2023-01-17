@@ -27,27 +27,27 @@
                 <div class="body container col-12 bg-warning rounded-5">
                     <div class="calculadora container border bg-primary rounded-5 mt-3 mb-3">
                         <div class="display rounded-1 bg-dark text-white  m-2" >
-                            <div id="valorDatosIngresados" class="  min-flex m-2">
+                            <div id="valorDatosIngresados" class=" row min-flex m-2"style="text-align: center;">
 
-                                <input id="numero1" type="text" class="col-4" placeholder="0">
-                                <label id="operador" class="bg-white m-1 rounded-pill col-1" for="text">+</label>
-                                <input id="numero2" type="text" class="col-4" placeholder="0">
+                                <input id="numero1" type="text" class="col-8  col-sm-4" placeholder="0">
+                                <label id="operador" class="bg-white m-1 rounded-pill col-8 col-sm-1" for="text">+</label>
+                                <input id="numero2" type="text" class="col-8 col-sm-4" placeholder="0">
                                 
                                 
                             </div>
-                            <div id="valorDatosIngresados" class="min-flex mb-2">
-                                <label class="col-1" for="text">=</label>
-                                <input id="resultado" type="text" class="col-8" placeholder="0" readonly>
+                            <div id="valorDatosIngresados" class="row min-flex mb-2"style="text-align: center;">
+                                <label class="col-12 col-sm-1" for="text" >=</label>
+                                <input id="resultado" type="text" class="col-8 col-sm-8" placeholder="0" readonly>
                                 
                             </div>
                             
                         </div>
 
                         <div class="row min-flex m2">
-                            <button id="btnSuma" class="btnOperador col-2" onclick="suma()">+</button>
-                            <button id="btnResta" class="btnOperador col-2" onclick="resta()">-</button>
-                            <button id="btnProducto" class="btnOperador col-2" onclick="producto()">*</button>
-                            <button id="btnDivision" class="btnOperador col-2" onclick="division()">/</button>
+                            <button id="btnSuma" class="btnOperador col-5 col-sm-2" onclick="suma()">+</button>
+                            <button id="btnResta" class="btnOperador col-5 col-sm-2" onclick="resta()">-</button>
+                            <button id="btnProducto" class="btnOperador col-5 col-sm-2" onclick="producto()">*</button>
+                            <button id="btnDivision" class="btnOperador col-5 col-sm-2" onclick="division()">/</button>
                         </div>
 
                     </div>
